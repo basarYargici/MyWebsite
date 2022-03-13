@@ -1,27 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
-/* Variables */
-:root {
-    --font-family: "Roboto", sans-serf;
-    --normal-font: 400;
-    --bold-font: 700;
-    --bolder-font: 900;
-    --bg-color: #fcfcfc;
-    --primary-color: #1B63DF;
-    --secondary-color: #FF4DD5;
-    --primary-shadow: #1B63DF;
-    --secondary-shadow: #a17a69;
-    --margin-top: 2rem;
-    --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
-    --transition: 0.3s;
-    --textsize-sm: 14px;
-    --textsize-m: 18px;
-    --textsize-l: 25px;
-    --border-radius-sm: 15px;
-}
-/* Variables end */
+@import url("common.css");
 
 .nav-header-small {
     text-size-adjust: var(--textsize-sm);
@@ -33,14 +10,6 @@
     color: var(--primary-color);
 }
 
-.my-gradient{
-  background: var(--primary-color);
-  background: -webkit-linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 85%);
-  background: -moz-linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 85%);
-  background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 85%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
 
 /* About section */
 .about {
@@ -74,5 +43,3 @@
   padding: 0.3rem 0;
 }
 /* About section ends */
-
-
