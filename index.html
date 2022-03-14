@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/splash.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        const myTimeout = setTimeout(myGreeting, 8000);
+        const myTimeout = setTimeout(myGreeting, 4000);
         function myGreeting() {
             setTimeout(myTimeout);
             window.location.replace("home.html")
@@ -19,15 +19,31 @@
 </head>
 
 <body onclick=myGreeting()>
+    <div id="leaves">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+
     <div class="container">
-        <div class="scroller">
-            <div class="inner">
-                <span>I'm İ. Başar YARGICI.</span>
-                <span>I'm a Software Developer</span>
-                <span>I'm a Software Developer</span>
-                <span>I'm a Software Developer</span>
-            </div>
-        </div>
+        <marquee class="slideText" behavior="scroll" direction="left" scrollamount="30">Welcome</marquee>
+        <img src="assets/images/panda_withoutbg.gif">
+        <marquee class="slideText" behavior="scroll" direction="right" scrollamount="20"></marquee>
+        <marquee class="slideText" behavior="scroll" direction="right" scrollamount="40">Fast Scrolling</marquee>
+        <marquee class="slideText" behavior="scroll" direction="right" scrollamount="40">Fast Scrolling</marquee>
+        <h2 style="text-align: center;">𝓘. 𝓑𝓪ş𝓪𝓻 𝓨𝓐𝓡𝓖𝓘𝓒𝓘</h2>
 
     </div>
 </body>

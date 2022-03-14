@@ -1,5 +1,3 @@
-@import url("common.css");
-
 /* Variables */
 :root {
     --font-family: "Roboto", sans-serf;
@@ -23,6 +21,10 @@
     --border-radius-lg: 30px;
 }
 /* Variables end */
+
+body {
+    background: white;
+}
 
 .my-gradient{
     background: var(--primary-color);
