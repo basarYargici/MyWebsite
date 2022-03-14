@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: #fafafa;
+}
+
+/* About section */
+.about {
+    /* margin-top: var(--margin-top); */
+    position: relative;
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.about .container {
+	transform: translateY(-20px);
+	min-height: 100vh;
+}
+
+.about .container .imgBoxInfoText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+ }
+  
+.about .container .imgBoxInfoText img {
+	position: relative;
+	width: 75%;
+	object-fit: cover;
+}
+ 
+.about .container .imgBoxInfoText .bio {
+	position: relative;
+	animation: slideInUp;
+	animation-duration: 1s; /* don't forget to set a duration! */
+	border-radius: var(--border-radius-sm);
+	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+ 
+.about .container .imgBoxInfoText .bio title {
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+} 
+.about .container .imgBoxInfoText .bio .description {
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+  
+  /* About section ends */
+  
