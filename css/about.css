@@ -18,24 +18,31 @@ body {
 
 .about .container {
 	transform: translateY(-20px);
-	min-height: 100vh;
+	min-height: 85vh;
 }
 
 .about .container .imgBoxInfoText {
+	border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 85vh;
  }
   
 .about .container .imgBoxInfoText img {
 	position: relative;
-	width: 75%;
 	object-fit: cover;
+	width: 400px;
+	height: 400px;
+	padding: 1rem;
+	border-radius: var(--border-radius-lg);
+
 }
  
 .about .container .imgBoxInfoText .bio {
+	width: 25rem;
+	padding: 0.625rem;
 	position: relative;
 	animation: slideInUp;
 	animation-duration: 1s; /* don't forget to set a duration! */
@@ -44,25 +51,11 @@ body {
 }
  
 .about .container .imgBoxInfoText .bio title {
-	color: black;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 500;
-	font-size: 18px;
-	text-align: center;
-	margin: 20px 0 10px;
-	line-height: 1.1em;
+	margin-bottom: var(--bottom-margin);
 } 
 .about .container .imgBoxInfoText .bio .description {
-	color: black;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 500;
-	font-size: 18px;
-	text-align: center;
-	margin: 20px 0 10px;
-	line-height: 1.1em;
-}
-  
+	line-height: var(--line-height);
+	padding: 0.3rem 0;
+  }
   /* About section ends */
   
