@@ -46,6 +46,7 @@ html {
  
 .about .container .imgBoxInfoText .bio {
 	width: 25rem;
+	height: 18rem;
 	padding: 0.625rem;
 	position: relative;
 	animation: bounceInRight;

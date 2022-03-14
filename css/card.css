@@ -103,3 +103,8 @@
 	color: black;
 	font-size: 20px;
 }
+
+.my-swiper {
+    height: 500px;
+	offset: 4em;
+}
