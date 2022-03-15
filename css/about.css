@@ -36,7 +36,8 @@ html {
 .about .container .imgBoxInfoText img {
 	position: relative;
 	object-fit: cover;
-	width: 400px;
+	min-width: 300px;
+	max-width: 450px;
 	height: 400px;
 	padding: 1rem;
 	border-radius: var(--border-radius-lg);
